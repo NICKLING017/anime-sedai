@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import { Home } from "./home"
 import { Toaster } from "sonner"
+import "./index.css" // 确保导入 CSS 文件
 
 ReactDOM.createRoot(document.getElementById("app")!).render(
   <React.StrictMode>
